@@ -32,14 +32,15 @@ The followings are types of branch.
 
 All new branch should be branch off from `dev` branch. Every new branch shall follow rules and the naming convention as stated below.
 
-- `<type>/<name>`
+- `<type>/<server/client>/<name>`
 - all texts should be in lowercase
 - `type` block refers to type of branch and `name` block refers to **name of the feature** or **issue number**
 - Separate words with `_` for blocks with more than one word
 
 Examples:
 
-- `feat/login_ui`
+- `feat/client/login_ui`
+- `feat/server/login_api`
 - `bug/20`
 
 ## Branch Commit
