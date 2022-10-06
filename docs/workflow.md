@@ -73,3 +73,8 @@ Branches must
 
 - pull lattest changes from the branches they make merge request to.
 - not merge directly into Main or Dev branches. Instead, create pull request for merging branches
+
+## Naming Conventions
+-   File: snake_case
+-   Functions : camelCase
+-   Variables: snake_case
